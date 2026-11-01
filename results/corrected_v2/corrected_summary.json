@@ -1,0 +1,160 @@
+{
+  "version": "corrected_v2",
+  "date_boundaries": {
+    "train": {
+      "start": "2020-03-08 23:00:00",
+      "end": "2020-05-18 12:00:00"
+    },
+    "val": {
+      "start": "2020-05-18 00:00:00",
+      "end": "2020-07-27 12:00:00"
+    },
+    "test": {
+      "start": "2020-07-27 00:00:00",
+      "end": "2020-10-19 12:00:00"
+    }
+  },
+  "before_after": {
+    "old_join_rows": {
+      "train": {
+        "rows": 1332982,
+        "title_example": "'ТСН. Неделя'."
+      },
+      "val": {
+        "rows": 780027,
+        "title_example": "'Завтрак с 1+1'. Информационно-развлекательная программа."
+      }
+    },
+    "old_issue": "last-airing-only backward scan",
+    "new_issue": "prefix-max end pruning plus full candidate-range inspection",
+    "corrected_cache_rows": {
+      "train": 1825255,
+      "val": 1188874
+    },
+    "fixes": [
+      "repaired interval candidate search",
+      "rebuilt both caches and validation targets",
+      "separated fixed graph construction from user inference",
+      "rebuilt final fit from corrected weeks 11–30 caches"
+    ]
+  },
+  "protocol": {
+    "cohort": 1260,
+    "empty_targets": 24,
+    "train_fraction": 0.5,
+    "target_fraction": 0.8,
+    "target_approximation": true,
+    "repeats_allowed": true,
+    "no_test_views_in_fit": true
+  },
+  "randomized_checks": [
+    {
+      "name": "two_hour_four_programmes",
+      "fast": 4,
+      "expected": 4
+    },
+    {
+      "name": "touching_boundaries",
+      "fast_ids": [
+        2
+      ],
+      "expected_ids": [
+        2
+      ]
+    },
+    {
+      "name": "id0_gap",
+      "fast_ids": [
+        0,
+        5,
+        0
+      ],
+      "expected_join_ids": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "name": "randomized_fast_vs_bruteforce",
+      "cases": 200,
+      "passed": true
+    }
+  ],
+  "ppr_graph_invariance": true,
+  "ppr_reference": [
+    0.6666666666666667,
+    0.3333333333333333
+  ],
+  "graph": {
+    "validation_nodes": 7051,
+    "validation_edges": 2128678,
+    "final_nodes": 7730,
+    "final_edges": 6657564
+  },
+  "selected_method": "ppr_a0.75",
+  "methods": [
+    {
+      "method": "popularity",
+      "map5": 0.14163910934744253,
+      "runtime_sec": 0.0,
+      "fallback_users": 1260,
+      "cold_start_users": 15,
+      "settings": "cached baseline popularity"
+    },
+    {
+      "method": "frequency",
+      "map5": 0.37002447089947094,
+      "runtime_sec": 0.12982240000019374,
+      "fallback_users": 39,
+      "cold_start_users": 15,
+      "settings": "{\"decay\": \"none\"}"
+    },
+    {
+      "method": "cbf",
+      "map5": 0.2775888447971768,
+      "runtime_sec": 5.773048399998515,
+      "fallback_users": 15,
+      "cold_start_users": 15,
+      "settings": "{\"features\": 18173, \"train_items\": 5847}"
+    },
+    {
+      "method": "ppr_a0.15",
+      "map5": 0.3740196208112875,
+      "runtime_sec": 52.618015000000014,
+      "fallback_users": 15,
+      "cold_start_users": 15,
+      "settings": "{\"alpha\": 0.15, \"converged_users\": 1246, \"graph_edges\": 2128678, \"graph_nodes\": 7051, \"graph_users\": 4782, \"max_final_delta\": 9.9762647900816e-09, \"max_iter\": 100, \"mean_iterations\": 5.959069020866774, \"tol\": 1e-08, \"users_run\": 1246}"
+    },
+    {
+      "method": "ppr_a0.35",
+      "map5": 0.3745513668430336,
+      "runtime_sec": 67.7842299999993,
+      "fallback_users": 15,
+      "cold_start_users": 15,
+      "settings": "{\"alpha\": 0.35, \"converged_users\": 1246, \"graph_edges\": 2128678, \"graph_nodes\": 7051, \"graph_users\": 4782, \"max_final_delta\": 9.997582236898777e-09, \"max_iter\": 100, \"mean_iterations\": 7.570626003210273, \"tol\": 1e-08, \"users_run\": 1246}"
+    },
+    {
+      "method": "ppr_a0.50",
+      "map5": 0.37572729276895944,
+      "runtime_sec": 72.42944109999917,
+      "fallback_users": 15,
+      "cold_start_users": 15,
+      "settings": "{\"alpha\": 0.5, \"converged_users\": 1246, \"graph_edges\": 2128678, \"graph_nodes\": 7051, \"graph_users\": 4782, \"max_final_delta\": 9.969962673154617e-09, \"max_iter\": 100, \"mean_iterations\": 8.675762439807384, \"tol\": 1e-08, \"users_run\": 1246}"
+    },
+    {
+      "method": "ppr_a0.75",
+      "map5": 0.37907341269841294,
+      "runtime_sec": 84.88999729999887,
+      "fallback_users": 15,
+      "cold_start_users": 15,
+      "settings": "{\"alpha\": 0.75, \"converged_users\": 1246, \"graph_edges\": 2128678, \"graph_nodes\": 7051, \"graph_users\": 4782, \"max_final_delta\": 9.999606637530912e-09, \"max_iter\": 100, \"mean_iterations\": 10.28892455858748, \"tol\": 1e-08, \"users_run\": 1246}"
+    }
+  ],
+  "case_users": [
+    "13866173795451203812",
+    "3799694907521863650"
+  ],
+  "final_submission": "submission_corrected_v2_ppr_a0.75.csv",
+  "runtime_total_sec": 1649.8617576999986
+}

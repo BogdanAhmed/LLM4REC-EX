@@ -1,0 +1,9 @@
+{
+  "T": "2020-05-18 00:00:00",
+  "U": "2020-07-27 00:00:00",
+  "validation_history": "strictly before T",
+  "validation_labels": "T <= airing_end < U",
+  "late": "overlapping diagnostic only",
+  "final_history": "strictly before U",
+  "cohort_users": 1260
+}

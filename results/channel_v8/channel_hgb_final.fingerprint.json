@@ -1,0 +1,43 @@
+{
+  "fingerprint": "d7b85fb2ed198e22bb0cef8b59b2e9f64299486924a71c26d9881db5c0e04c22",
+  "features": [
+    "count30",
+    "count50",
+    "count80",
+    "log_duration",
+    "relative_frequency",
+    "recent14",
+    "days_since_last",
+    "frequency_rank",
+    "ppr_score",
+    "ppr_rank",
+    "cbf_score",
+    "cbf_rank",
+    "log_popularity",
+    "history_exposure_day",
+    "future_exposure_day",
+    "exposure_ratio",
+    "category_affinity",
+    "source_frequency",
+    "source_ppr",
+    "source_cbf",
+    "source_popularity",
+    "count50_per_history_day",
+    "watched_seconds_per_history_day",
+    "recent14_over_count50",
+    "history_length_days",
+    "channel_pref_mean",
+    "channel_pref_per_day",
+    "channel_pref_max",
+    "log_channel_support"
+  ],
+  "params": {
+    "max_iter": 120,
+    "learning_rate": 0.08,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 30,
+    "l2_regularization": 1.0,
+    "class_weight": "balanced",
+    "random_state": 42
+  }
+}

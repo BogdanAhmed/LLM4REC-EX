@@ -1,0 +1,86 @@
+Midterm Quiz
+   Seungmin Jin
+  sedzhin@hse.ru
+Exam: TV Program Recommendation
+ Task
+ Use the SWEET.TV competition data to produce a ranked Top-5 list of TV programs for each test user.
+
+
+ Implementation
+   ●    Implement at least two methods: Content-Based Filtering (CBF), Association Rules, Matrix Factorization (CF), or Personalized PageRank.
+   ●    Connect viewing logs with the program schedule to construct user–program interactions. Explain your matching rule and treatment of
+        missing program IDs.
+   ●    Compare methods using the same temporal validation split, candidate pool, and evaluation protocol.
+   ●    Include a popularity baseline as a reference; it does not count as one of the two required methods.
+   ●    Your final submission may use a single method or a hybrid strategy. Evaluate each selected method individually before combining them.
+   ●    Use the provided program metadata, but do not use future user viewing behavior for training.
+
+
+ Business & Algorithmic Analysis
+ Which recommendation strategy would you select for SWEET.TV, and why?
+
+   ●    Select two users and justify your selection. Use the same users across all implemented methods.
+   ●    Show each method’s Top-5 with program IDs, titles, and categories. Compare the recommendations with the users’ viewing histories and
+        program attributes.
+   ●    Explain how and why your selected methods differ, and what those differences imply for the user experience.
+   ●    Justify your final strategy using validation performance, computational cost, and specific recommendation examples.
+   ●    Discuss limitations and failure cases supported by your results. No live A/B test or demonstrated revenue impact is required.
+Submission Deadline: GSB Groups - 24th Oct 19:00, AVITO               Grading
+Groups - 25th Oct 19:00, FKN Groups - 1st Nov 19:00
+                                                                      (Gate0 is automatic fail of exam, please check the
+Submit only:                                                          homework guideline carefully!)
+
+ 1.    Your report in PDF format.                                     Kaggle leaderboard-score ranking among exam
+ 2.    Your original, unmodified AI-session export.                   participants — 50 points
+
+The PDF report must include:                                          Participants are ranked by the returned score of their
+                                                                      designated final submission, not by their position on the
+  ●    A link to your GitHub repository.
+                                                                      frozen Kaggle leaderboard.
+  ●    A screenshot showing the highest returned Kaggle private
+       score for your designated final submission.                    Successive 20% groups receive 50 / 40 / 30 / 20 / 10 points.
+  ●    Your method comparison, validation results, and business
+       and algorithmic analysis. Same like Homework.                  Homework-style evaluation — 50 points
+The GitHub repository must contain:                                   The existing homework evaluation criteria (c1 and c2) apply,
+                                                                      covering implementation, the PDF report—including
+  ●    Your implementation code.
+                                                                      business analysis—and the original, unmodified AI-session
+  ●    Instructions for reproducing the results. (Optional)
+                                                                      export.
+  ●    The final submission file used to obtain the reported Kaggle
+       score.
+Click this one!
+       Your submission file
+
+
+
+Your full name (Russian) &
+Kaggle name
+               Please make
+               sure that your
+               name is
+               displayed
+               correctly.
+
+
+               Number of
+               submission is
+               limited to 5
+Error case!!   usually. So be
+               wise.
+Capture the
+your
+Submission
+page as a
+screenshot
+and attach it
+into the
+report.
+
+I will accept
+the best
+score among
+them
+If you have any issues, please dm to me.
+@joseph_jin
+

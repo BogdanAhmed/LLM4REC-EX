@@ -1,0 +1,46 @@
+{
+  "status": "repaired",
+  "old": {
+    "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\time_channel_v9\\apr19_time33.corrupt.npz",
+    "size": 32162075,
+    "sha256": "50e292111e33e6626ccee0519acabb837bc999173801f1822cab6dcccab24516"
+  },
+  "new": {
+    "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\time_channel_v9\\apr19_time33.npz",
+    "size": 32162120,
+    "sha256": "5131f285ffbe1df183d955e9bb5384dc4d592c5d8233518b3a303dd1a1416bcd"
+  },
+  "cache_sources": {
+    "profile": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\time_channel_v9\\time_channel_profiles.pkl",
+    "source_matrix": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\features_long_apr19_T.npz",
+    "v8_matrix": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\channel_v8\\apr19_channel29.npz",
+    "schedule_window": "2020-04-19 <= airing_start < 2020-05-18"
+  },
+  "validation_checks": {
+    "zip_integrity": true,
+    "shape": [
+      884800,
+      33
+    ],
+    "expected_shape": [
+      884800,
+      33
+    ],
+    "shape_match": true,
+    "schema_match": true,
+    "finite": true,
+    "source_key_alignment": true,
+    "source_labels_unchanged": true,
+    "source_first25_match": true,
+    "v8_first29_match": true,
+    "fingerprint": "49a12f762ce34114f82e66a3d6638976427c57186066f617e5cf4a4a4c07d2d6",
+    "expected_fingerprint": "49a12f762ce34114f82e66a3d6638976427c57186066f617e5cf4a4a4c07d2d6",
+    "fingerprint_match": true,
+    "sidecar_rows_digest_match": true,
+    "cutoff": "2020-04-19 00:00:00",
+    "prediction_window_end": "2020-05-18 00:00:00",
+    "no_raw_log_scan": true
+  },
+  "generation_timing": {},
+  "runtime_sec": 11.914185399999951
+}

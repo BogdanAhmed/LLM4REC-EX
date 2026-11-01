@@ -1,0 +1,12 @@
+{
+  "ppr_075_reproduces_corrected_v2": true,
+  "corrected_popularity_recomputed": true,
+  "selected_improves_validation": true,
+  "comparison_rows": 16,
+  "case_rows": 32,
+  "two_case_users": true,
+  "submission_rows": 1260,
+  "template_order": true,
+  "submission_sha256": "1ca392bc4b5fc8a5679c4f7369e334fae3bb2d2ca139c6cbdcef0152b64ae849",
+  "corrected_v2_submission_sha256": "ea737b4560a4071448228f45607976b620184690fc387e6db4ae0d510ddbe154"
+}

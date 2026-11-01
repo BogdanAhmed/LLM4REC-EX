@@ -1,0 +1,51 @@
+{
+  "fixture": {
+    "cross_midnight_bins": [
+      41,
+      0
+    ],
+    "weight_sum": 3600.0,
+    "expected_weight": 3600.0,
+    "post_cutoff_data_excluded_by_start_lt_cutoff": true
+  },
+  "reconciliation_v8": {
+    "apr05": {
+      "users_compared": 4673,
+      "max_support_abs_error": 0.0,
+      "max_channel_pref_abs_error": 4.533664271777482e-08,
+      "matches_v8": true
+    },
+    "apr19": {
+      "users_compared": 4698,
+      "max_support_abs_error": 0.0,
+      "max_channel_pref_abs_error": 6.528556018015053e-08,
+      "matches_v8": true
+    },
+    "outer": {
+      "users_compared": 4716,
+      "max_support_abs_error": 0.0,
+      "max_channel_pref_abs_error": 8.522448990966325e-08,
+      "matches_v8": true
+    },
+    "jun14": {
+      "users_compared": 4724,
+      "max_support_abs_error": 0.0,
+      "max_channel_pref_abs_error": 7.537203527974157e-08,
+      "matches_v8": true
+    },
+    "jun28": {
+      "users_compared": 4727,
+      "max_support_abs_error": 0.0,
+      "max_channel_pref_abs_error": 8.47503117684667e-08,
+      "matches_v8": true
+    },
+    "final": {
+      "users_compared": 4729,
+      "max_support_abs_error": 0.0,
+      "max_channel_pref_abs_error": 6.955814513265324e-08,
+      "matches_v8": true
+    }
+  },
+  "sessions_seen": 5821987,
+  "sessions_for_needed_users": 5782352
+}

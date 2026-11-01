@@ -1,0 +1,33 @@
+{
+  "version": "ranker_v11_rrf",
+  "baseline": {
+    "full": 0.413634259259259,
+    "late": 0.36178086419753075
+  },
+  "scores": {
+    "ranker_v10": 0.413634259259259,
+    "rrf_v9_0.05_ranker_0.95": 0.413634259259259,
+    "rrf_v9_0.10_ranker_0.90": 0.4137294973544971,
+    "rrf_v9_0.15_ranker_0.85": 0.41397552910052887
+  },
+  "late_scores": {
+    "ranker_v10": 0.36178086419753075,
+    "rrf_v9_0.05_ranker_0.95": 0.36178086419753075,
+    "rrf_v9_0.10_ranker_0.90": 0.3619078483245149,
+    "rrf_v9_0.15_ranker_0.85": 0.3622094356261022
+  },
+  "selected": "rrf_v9_0.15_ranker_0.85",
+  "final_submission": "submission_rrf_v9_0.15_ranker_0.85.csv",
+  "submission_checks": {
+    "rows": 1260,
+    "unique_users": 1260,
+    "template_order": true,
+    "five_distinct_positive_ids": true,
+    "schedule_available": true,
+    "strict_pre_U_fitting": true,
+    "fallback_users": 4
+  },
+  "candidate_source": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\ranker_v10\\validation_candidate_scores.csv.gz",
+  "policy": "complete 200-candidate RRF, k=60; v9/ranker weights fixed",
+  "runtime_sec": 101.30300870000019
+}

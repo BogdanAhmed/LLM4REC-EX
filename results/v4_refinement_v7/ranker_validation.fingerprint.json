@@ -1,0 +1,21 @@
+{
+  "fingerprint": "ab3ac9d31fa7d4850de3ee808b33381f68f3a6359afa8bd83343439b56a53cff",
+  "rows": 1776200,
+  "groups": 8881,
+  "group_sum": 1776200,
+  "min_group": 200,
+  "max_group": 200,
+  "contiguous": true,
+  "params": {
+    "objective": "lambdarank",
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_child_samples": 50,
+    "reg_lambda": 5.0,
+    "lambdarank_truncation_level": 8,
+    "seed": 42,
+    "n_jobs": 1
+  },
+  "lightgbm": "4.7.0"
+}

@@ -1,0 +1,14 @@
+{
+  "ranker_validation": {
+    "seconds": 0.00040919999992183875,
+    "cache_hit": true
+  },
+  "ranker_validation_predict": {
+    "seconds": 2.4468446000000768,
+    "cache_hit": false
+  },
+  "ranker_final": {
+    "seconds": 91.21496389999993,
+    "cache_hit": false
+  }
+}

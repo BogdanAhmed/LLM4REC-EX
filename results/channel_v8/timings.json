@@ -1,0 +1,38 @@
+{
+  "profiles": {
+    "seconds": 156.4850684999983,
+    "cache_hit": false
+  },
+  "outer": {
+    "seconds": 1.6181834999988496,
+    "cache_hit": false
+  },
+  "apr05": {
+    "seconds": 5.143132400000468,
+    "cache_hit": false
+  },
+  "apr19": {
+    "seconds": 5.3093059999991965,
+    "cache_hit": false
+  },
+  "channel_hgb_validation": {
+    "seconds": 49.90862919999927,
+    "cache_hit": false
+  },
+  "final": {
+    "seconds": 1.7190231999993557,
+    "cache_hit": false
+  },
+  "jun14": {
+    "seconds": 7.048724199998105,
+    "cache_hit": false
+  },
+  "jun28": {
+    "seconds": 7.308468899998843,
+    "cache_hit": false
+  },
+  "channel_hgb_final": {
+    "seconds": 56.63049449999744,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "mapping": {
+    "rule": "vsetv_id equals channel_id",
+    "raw_vsetv_ids": 202,
+    "schedule_channel_ids": 405,
+    "shared_ids": 197,
+    "raw_without_schedule": [
+      149,
+      1174,
+      1508,
+      1509,
+      1510
+    ],
+    "schedule_without_raw_count": 208
+  },
+  "crossing_sessions": {
+    "apr05": 828,
+    "apr19": 876,
+    "outer": 1007,
+    "jun14": 875,
+    "jun28": 300,
+    "final": 0
+  },
+  "boundary_fixture": {
+    "session": "2020-05-17 23:00 to 2020-05-18 02:00",
+    "cutoff": "2020-05-18 00:00",
+    "contribution_seconds": 3600,
+    "cap_seconds": 3600,
+    "start_at_cutoff_excluded": true
+  }
+}

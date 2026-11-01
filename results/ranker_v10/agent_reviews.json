@@ -1,0 +1,12 @@
+{
+  "alignment_temporal_review": {
+    "scope": "read-only existing-artifact audit",
+    "status": "unavailable",
+    "reason": "No response within the bounded short parallel review window; agent closed before any findings were returned."
+  },
+  "ranking_fallback_review": {
+    "scope": "read-only existing-artifact audit",
+    "status": "unavailable",
+    "reason": "No response within the bounded short parallel review window; agent closed before any findings were returned."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "fingerprint": "f44377b807b8dca556d8f0595799c510490e8793d66db4656bb3eec6676449e2",
+  "rows": 1776200,
+  "groups": 8881,
+  "group_sum": 1776200,
+  "min_group": 200,
+  "max_group": 200,
+  "contiguous": true,
+  "query_example": [
+    "apr05:10008352999832730058",
+    "apr05:10008352999832730058"
+  ],
+  "params": {
+    "objective": "lambdarank",
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_child_samples": 50,
+    "reg_lambda": 5.0,
+    "lambdarank_truncation_level": 8,
+    "random_state": 42,
+    "n_jobs": 1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "lightgbm": "4.7.0"
+}

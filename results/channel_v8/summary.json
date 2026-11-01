@@ -1,0 +1,153 @@
+{
+  "version": "channel_v8",
+  "late_verification": {
+    "users": 1260,
+    "empty_targets": 32,
+    "v4_map5": 0.35464594356261,
+    "ranker_map5": 0.3532940917107583,
+    "matches_expected": true
+  },
+  "scores": {
+    "v4": 0.40403130511463825,
+    "channel_hgb": 0.40946318342151666,
+    "blend_v4_075_channel_025": 0.40718584656084655
+  },
+  "late_scores": {
+    "v4": 0.35464594356261,
+    "channel_hgb": 0.35924184303350976,
+    "blend_v4_075_channel_025": 0.356702160493827
+  },
+  "selected": "channel_hgb",
+  "qualified": [
+    "channel_hgb",
+    "blend_v4_075_channel_025"
+  ],
+  "schema": [
+    "count30",
+    "count50",
+    "count80",
+    "log_duration",
+    "relative_frequency",
+    "recent14",
+    "days_since_last",
+    "frequency_rank",
+    "ppr_score",
+    "ppr_rank",
+    "cbf_score",
+    "cbf_rank",
+    "log_popularity",
+    "history_exposure_day",
+    "future_exposure_day",
+    "exposure_ratio",
+    "category_affinity",
+    "source_frequency",
+    "source_ppr",
+    "source_cbf",
+    "source_popularity",
+    "count50_per_history_day",
+    "watched_seconds_per_history_day",
+    "recent14_over_count50",
+    "history_length_days",
+    "channel_pref_mean",
+    "channel_pref_per_day",
+    "channel_pref_max",
+    "log_channel_support"
+  ],
+  "fingerprint": "8fa1ce091e6a74ab981fe9957dba05745d3bfa68952c32253baf0df245f316e4",
+  "input_identities": {
+    "outer": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\features_outer_new200.npz",
+      "size": 5744393,
+      "sha256": "1752ff546d0112cebb6e1e066d5db69b7246b34615fc92e2fc37d2db57e6baa3"
+    },
+    "a": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\features_long_apr05_T.npz",
+      "size": 17179111,
+      "sha256": "f865817376fdb5b429db76b39ba791370265539a8274014967d4256ffa223b3b"
+    },
+    "b": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\features_long_apr19_T.npz",
+      "size": 17686157,
+      "sha256": "bf4c603c25ad280acc4c38437e8b65b5878bdea5ddf7363b6a3ff0248405536c"
+    },
+    "j": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\features_final_jun14_U.npz",
+      "size": 20999691,
+      "sha256": "72177bd43b668c484cfec3b8b9f04fb94ad5ad6225aca209483512d1a596d059"
+    },
+    "k": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\features_final_jun28_U.npz",
+      "size": 20544150,
+      "sha256": "b0901ba6f59348401b6a4aa6f3351b39ea4e13abff370abb5a902451f1fc37f9"
+    },
+    "v4m": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\reranker_validation_v4.pkl",
+      "size": 461081,
+      "sha256": "e39c512372ff5642686a55dd994a11f808666ee287150c7f1a88f397539d95d8"
+    },
+    "v4final": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\reranker_final_v4.pkl",
+      "size": 462673,
+      "sha256": "30cf0f1a9b773bdeb8bc3abab241f2b50b5a0038f729477aec189a157077c052"
+    },
+    "sub": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\submission_temporal_v4_new200.csv",
+      "size": 76463,
+      "sha256": "76185e2e077542baae075883cab8debfd4c3066878d97bb0ab06e8b058e0c1ef"
+    },
+    "finalx": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\ensemble_v5\\final_candidate_features.npz",
+      "size": 6660789,
+      "sha256": "a5e49a086294a928bc13f21534d830412003bb2691d0fca89635c6c309abe07c"
+    }
+  },
+  "final_submission": "submission_channel_v8_channel_hgb.csv",
+  "submission_checks": {
+    "rows": 1260,
+    "template_order": true,
+    "complete_coverage": true,
+    "five_distinct_positive_ids": true,
+    "schedule_available": true,
+    "strict_pre_U_fitting": true
+  },
+  "runtime_total_sec": 715.9926382999984,
+  "timings": {
+    "profiles": {
+      "seconds": 156.4850684999983,
+      "cache_hit": false
+    },
+    "outer": {
+      "seconds": 1.6181834999988496,
+      "cache_hit": false
+    },
+    "apr05": {
+      "seconds": 5.143132400000468,
+      "cache_hit": false
+    },
+    "apr19": {
+      "seconds": 5.3093059999991965,
+      "cache_hit": false
+    },
+    "channel_hgb_validation": {
+      "seconds": 49.90862919999927,
+      "cache_hit": false
+    },
+    "final": {
+      "seconds": 1.7190231999993557,
+      "cache_hit": false
+    },
+    "jun14": {
+      "seconds": 7.048724199998105,
+      "cache_hit": false
+    },
+    "jun28": {
+      "seconds": 7.308468899998843,
+      "cache_hit": false
+    },
+    "channel_hgb_final": {
+      "seconds": 56.63049449999744,
+      "cache_hit": false
+    }
+  },
+  "late_diagnostic": "Overlapping diagnostic, not independent test."
+}

@@ -1,0 +1,9 @@
+{
+  "rows": 1260,
+  "template_order": true,
+  "complete_coverage": true,
+  "five_distinct_positive_ids": true,
+  "schedule_available": true,
+  "strict_pre_U_fitting": true,
+  "fallback_users": 4
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "user_id": "13866173795451203812",
+    "method": "frequency",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "13866173795451203812",
+    "method": "recency_14d",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "13866173795451203812",
+    "method": "recency_30d",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "13866173795451203812",
+    "method": "recency_60d",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "13866173795451203812",
+    "method": "cbf",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 5900319,
+        "title": "Абзац!",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 5900347,
+        "title": "'Деньги'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "13866173795451203812",
+    "method": "ppr",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "13866173795451203812",
+    "method": "fusion_cbf",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 2500413,
+        "title": "Гражданская оборона.",
+        "category": "Инфо",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "13866173795451203812",
+    "method": "fusion_ppr",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": true
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "3799694907521863650",
+    "method": "frequency",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "3799694907521863650",
+    "method": "recency_14d",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "3799694907521863650",
+    "method": "recency_30d",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "3799694907521863650",
+    "method": "recency_60d",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "3799694907521863650",
+    "method": "cbf",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "3799694907521863650",
+    "method": "ppr",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "3799694907521863650",
+    "method": "fusion_cbf",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "user_id": "3799694907521863650",
+    "method": "fusion_ppr",
+    "items": [
+      {
+        "tv_show_id": 2400480,
+        "title": "'ТСН. Неделя'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400467,
+        "title": "'Викна-Новости'.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 2400508,
+        "title": "Сегодня. Итоги с Олегом Панютой.",
+        "category": "Инфо",
+        "hit": false
+      },
+      {
+        "tv_show_id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": false
+      }
+    ]
+  }
+]

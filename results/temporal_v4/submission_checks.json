@@ -1,0 +1,10 @@
+{
+  "rows": 1260,
+  "template_order": true,
+  "complete_coverage": true,
+  "five_distinct_positive_ids": true,
+  "schedule_available": true,
+  "history_strictly_before_U": true,
+  "no_test_period_viewing": true,
+  "fallback_users": 4
+}

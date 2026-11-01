@@ -1,0 +1,102 @@
+{
+  "version": "ensemble_v5",
+  "v4_reproduced_map5": 0.40403130511463825,
+  "v4_expected_map5": 0.40403130511463825,
+  "v4_reproduction_exact": true,
+  "v3_semantics_verified": {
+    "feature_names_identical": true,
+    "model_features": 21,
+    "source": "tuning_v3.FEATURES"
+  },
+  "row_alignment": {
+    "rows": 252000,
+    "keys_identical": true,
+    "labels_identical": true
+  },
+  "ranker_groups": {
+    "skipped": "ModuleNotFoundError: No module named 'narwhals'"
+  },
+  "scores": {
+    "v4_hgb_recomputed": 0.40403130511463825,
+    "v3_hgb_on_v4_candidates": 0.4031959876543209,
+    "prob_blend_v4_0.50": 0.40496560846560825,
+    "prob_blend_v4_0.75": 0.404994708994709,
+    "prob_blend_v4_0.90": 0.40496913580246907
+  },
+  "selected": "prob_blend_v4_0.75",
+  "improved": true,
+  "final_submission": "submission_ensemble_v5_prob_blend_v4_0p75.csv",
+  "final_info": {
+    "type": "probability_blend",
+    "v4_weight": 0.75,
+    "reused_models": true
+  },
+  "submission_checks": {
+    "rows": 1260,
+    "template_order": true,
+    "complete_coverage": true,
+    "five_distinct_positive_ids": true,
+    "schedule_available": true,
+    "strict_pre_U_fitting": true,
+    "cold_fallback_users": 4
+  },
+  "fingerprint": "a42781ef68799da0fb056b95f2a1f99da5017c450887a4ade7783e1881153dfc",
+  "input_identities": {
+    "v4_summary": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\summary.json",
+      "size": 15961,
+      "sha256": "6d68c3929b30550abda7c3e4a577b41404c31ba2d92e54604996bc699b149770"
+    },
+    "v4_outer21": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\features_outer_saved200.npz",
+      "size": 5312579,
+      "sha256": "5a7d2c5bd6f075f955d7d74669844b32a4f28f94e027a74639f46658163028ee"
+    },
+    "v4_outer25": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\features_outer_new200.npz",
+      "size": 5744393,
+      "sha256": "1752ff546d0112cebb6e1e066d5db69b7246b34615fc92e2fc37d2db57e6baa3"
+    },
+    "v3_validation": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\tuning_v3\\reranker_validation.pkl",
+      "size": 455555,
+      "sha256": "9ab3caf73aaf2cc9b54e5665ba3fcac4fbefd25557059ee811e51c05fce6112d"
+    },
+    "v3_final": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\tuning_v3\\reranker_final.pkl",
+      "size": 456771,
+      "sha256": "43b7f64beaa45785695bccc586d27aee70ce7760b79c80dba0dc9f5e1e4b0b2c"
+    },
+    "v4_validation": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\reranker_validation_v4.pkl",
+      "size": 461081,
+      "sha256": "e39c512372ff5642686a55dd994a11f808666ee287150c7f1a88f397539d95d8"
+    },
+    "v4_final": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\reranker_final_v4.pkl",
+      "size": 462673,
+      "sha256": "30cf0f1a9b773bdeb8bc3abab241f2b50b5a0038f729477aec189a157077c052"
+    },
+    "v4_submission": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\temporal_v4\\submission_temporal_v4_new200.csv",
+      "size": 76463,
+      "sha256": "76185e2e077542baae075883cab8debfd4c3066878d97bb0ab06e8b058e0c1ef"
+    }
+  },
+  "libraries": {
+    "lightgbm": null,
+    "lightgbm_error": "ModuleNotFoundError: No module named 'narwhals'",
+    "numpy": "2.1.3"
+  },
+  "runtime_total_sec": 351.18420200000037,
+  "timings": {
+    "existing_model_scores": {
+      "seconds": 10.51877930000046,
+      "cache_hit": true
+    },
+    "final_candidate_features": {
+      "seconds": 162.0220111000017,
+      "cache_hit": false
+    }
+  }
+}

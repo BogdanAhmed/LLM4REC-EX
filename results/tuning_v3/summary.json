@@ -1,0 +1,232 @@
+{
+  "version": "tuning_v3",
+  "libraries": {
+    "python": "3.11",
+    "numpy": "2.1.3",
+    "scipy": "1.15.2",
+    "sklearn": "1.6.1"
+  },
+  "protocol": {
+    "cohort": 1260,
+    "empty_targets": 24,
+    "target_definition_unchanged": true,
+    "repeats_allowed": true,
+    "candidate_availability": "positive IDs in prediction schedule",
+    "fallback": "training-only corrected popularity"
+  },
+  "boundaries": {
+    "train_start": "2020-03-08 23:00:00",
+    "train_end": "2020-05-18 12:00:00",
+    "validation_start": "2020-05-18 00:00:00",
+    "validation_end": "2020-07-27 12:00:00"
+  },
+  "popularity_fix": {
+    "old_inherited_map5": 0.14163910934744253,
+    "corrected_recomputed_map5": 0.2746549823633161
+  },
+  "ppr_graph": {
+    "users": 4782,
+    "nodes": 7051,
+    "edges": 2128678
+  },
+  "best_ppr_alpha": 0.75,
+  "snapshots": [
+    {
+      "name": "s1",
+      "history_end": "2020-04-05 00:00:00",
+      "label_start": "2020-04-05 00:00:00",
+      "label_end": "2020-04-19 00:00:00",
+      "users": 4041,
+      "rows": 404100,
+      "positives": 13726,
+      "candidate_coverage": 0.8697250031681663,
+      "runtime_sec": 67.73713810000118,
+      "cached": true
+    },
+    {
+      "name": "s2",
+      "history_end": "2020-04-19 00:00:00",
+      "label_start": "2020-04-19 00:00:00",
+      "label_end": "2020-05-03 00:00:00",
+      "users": 4096,
+      "rows": 409600,
+      "positives": 12960,
+      "candidate_coverage": 0.8280092001022233,
+      "runtime_sec": 102.69613930000014,
+      "cached": true
+    }
+  ],
+  "candidate_coverage": {
+    "outer_validation": 0.8264087468460891,
+    "snapshots": {
+      "s1": 0.8697250031681663,
+      "s2": 0.8280092001022233
+    }
+  },
+  "configurations_added": 12,
+  "comparison": [
+    {
+      "method": "popularity_corrected",
+      "map5": 0.2746549823633161,
+      "runtime_sec": 1.6587606000030064,
+      "fallback_users": 1260,
+      "settings": "{\"recomputed_from\": \"corrected_v2 train cache\"}"
+    },
+    {
+      "method": "frequency",
+      "map5": 0.37002447089947094,
+      "runtime_sec": 0.0,
+      "fallback_users": 39,
+      "settings": "{\"threshold\": 0.5}"
+    },
+    {
+      "method": "cbf",
+      "map5": 0.2775888447971768,
+      "runtime_sec": 0.0,
+      "fallback_users": 15,
+      "settings": "{\"features\": 18173, \"fit_items\": 5847}"
+    },
+    {
+      "method": "ppr_a0.75",
+      "map5": 0.37907341269841294,
+      "runtime_sec": 1.8796251000021584,
+      "fallback_users": 15,
+      "settings": "{\"alpha\": 0.75, \"cached\": true, \"converged_users\": 1246, \"max_final_delta\": 9.999606637530912e-09, \"mean_iterations\": 10.28892455858748, \"users_run\": 1246}"
+    },
+    {
+      "method": "ppr_a0.85",
+      "map5": 0.37553306878306864,
+      "runtime_sec": 1.7652358999985154,
+      "fallback_users": 15,
+      "settings": "{\"alpha\": 0.85, \"cached\": true, \"converged_users\": 1246, \"max_final_delta\": 9.99567543082718e-09, \"mean_iterations\": 10.948635634028893, \"users_run\": 1246}"
+    },
+    {
+      "method": "ppr_a0.90",
+      "map5": 0.36830489417989354,
+      "runtime_sec": 1.9007606999985,
+      "fallback_users": 15,
+      "settings": "{\"alpha\": 0.9, \"cached\": true, \"converged_users\": 1246, \"max_final_delta\": 9.99982146441969e-09, \"mean_iterations\": 11.396468699839486, \"users_run\": 1246}"
+    },
+    {
+      "method": "ppr_a0.95",
+      "map5": 0.3441915784832445,
+      "runtime_sec": 1.7901228000009723,
+      "fallback_users": 15,
+      "settings": "{\"alpha\": 0.95, \"cached\": true, \"converged_users\": 1246, \"max_final_delta\": 9.96074726095055e-09, \"mean_iterations\": 11.734349919743178, \"users_run\": 1246}"
+    },
+    {
+      "method": "fusion_freq0.25_ppr",
+      "map5": 0.378721560846561,
+      "runtime_sec": 0.2896216999979515,
+      "fallback_users": 15,
+      "settings": "{\"frequency_weight\": 0.25, \"ppr_alpha\": 0.75, \"rrf_k\": 60}"
+    },
+    {
+      "method": "fusion_freq0.50_ppr",
+      "map5": 0.3755182980599647,
+      "runtime_sec": 0.32366449999972247,
+      "fallback_users": 15,
+      "settings": "{\"frequency_weight\": 0.5, \"ppr_alpha\": 0.75, \"rrf_k\": 60}"
+    },
+    {
+      "method": "fusion_freq0.75_ppr",
+      "map5": 0.37123699294532636,
+      "runtime_sec": 0.3197527000011178,
+      "fallback_users": 15,
+      "settings": "{\"frequency_weight\": 0.75, \"ppr_alpha\": 0.75, \"rrf_k\": 60}"
+    },
+    {
+      "method": "ppr_exposure_0.25",
+      "map5": 0.38612698412698465,
+      "runtime_sec": 1.661673399998108,
+      "fallback_users": 15,
+      "settings": "{\"clip\": [0.5, 2.0], \"ppr_alpha\": 0.75, \"smoothing_airings_per_day\": 0.1, \"strength\": 0.25}"
+    },
+    {
+      "method": "ppr_exposure_0.50",
+      "map5": 0.3878452380952386,
+      "runtime_sec": 1.7361711000012292,
+      "fallback_users": 15,
+      "settings": "{\"clip\": [0.5, 2.0], \"ppr_alpha\": 0.75, \"smoothing_airings_per_day\": 0.1, \"strength\": 0.5}"
+    },
+    {
+      "method": "ppr_exposure_1.00",
+      "map5": 0.38997971781305113,
+      "runtime_sec": 1.642554400001245,
+      "fallback_users": 15,
+      "settings": "{\"clip\": [0.5, 2.0], \"ppr_alpha\": 0.75, \"smoothing_airings_per_day\": 0.1, \"strength\": 1.0}"
+    },
+    {
+      "method": "reranker",
+      "map5": 0.4028503086419752,
+      "runtime_sec": 0.0057291000011900906,
+      "fallback_users": 15,
+      "settings": "{\"candidate_limit\": 100, \"model\": \"HistGradientBoostingClassifier\", \"model_cached\": true, \"sklearn\": \"1.6.1\", \"training_snapshots\": 2}"
+    },
+    {
+      "method": "reranker_ppr_0.50",
+      "map5": 0.3993150352733686,
+      "runtime_sec": 0.34986579999895184,
+      "fallback_users": 15,
+      "settings": "{\"ppr_alpha\": 0.75, \"reranker_weight\": 0.5, \"rrf_k\": 60}"
+    },
+    {
+      "method": "reranker_ppr_0.75",
+      "map5": 0.4016723985890652,
+      "runtime_sec": 0.35953259999951115,
+      "fallback_users": 15,
+      "settings": "{\"ppr_alpha\": 0.75, \"reranker_weight\": 0.75, \"rrf_k\": 60}"
+    }
+  ],
+  "selected": {
+    "method": "reranker",
+    "map5": 0.4028503086419752,
+    "runtime_sec": 0.0057291000011900906,
+    "fallback_users": 15,
+    "settings": "{\"candidate_limit\": 100, \"model\": \"HistGradientBoostingClassifier\", \"model_cached\": true, \"sklearn\": \"1.6.1\", \"training_snapshots\": 2}"
+  },
+  "improved_over_corrected_v2": true,
+  "final_refit": {
+    "added_snapshot": {
+      "name": "s3_refit",
+      "history_end": "2020-05-18 12:00:00",
+      "label_start": "2020-05-18 12:00:00",
+      "label_end": "2020-06-15 00:00:00",
+      "users": 3225,
+      "rows": 322500,
+      "positives": 11045,
+      "candidate_coverage": 0.8067932797662527,
+      "runtime_sec": 115.34254049999981,
+      "cached": true
+    },
+    "model": "HistGradientBoostingClassifier",
+    "model_cached": true
+  },
+  "final_submission": "submission_tuning_v3_reranker.csv",
+  "submission_checks": {
+    "rows": 1260,
+    "template_order": true,
+    "complete": true,
+    "five_distinct_positive_available": true,
+    "no_test_views_in_fit": true
+  },
+  "runtime_total_sec": 184.94226789999811,
+  "unsuccessful_runs": [
+    {
+      "stage": "validation reranker fit",
+      "failure": "sandbox denied scikit-learn thread-pool handle creation",
+      "correction": "OMP_NUM_THREADS=1 and LOKY_MAX_CPU_COUNT=1"
+    },
+    {
+      "stage": "case-user export",
+      "failure": "heavy case user is outside the 1,260-user cohort",
+      "correction": "separate diagnostic prediction users from metric users"
+    },
+    {
+      "stage": "cold-start audit",
+      "failure": "zero PPR scores were ranked as candidates",
+      "correction": "filter zero scores and apply common corrected-popularity fallback"
+    }
+  ],
+  "runtime_note": "Final per-method PPR/model times are cache-load plus ranking times where settings say cached=true; snapshot construction times are original measured runtimes. Failed-attempt wall time was not retained."
+}

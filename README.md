@@ -35,3 +35,8 @@ fallback.
 
 Outputs: validation predictions, two baseline submissions, and metrics/settings
 in `results\baseline\baseline_summary.json`.
+
+## Supplementary two-user analysis
+
+The [two-user recommendation case study](docs/two_user_analysis.md) provides full programme IDs, original titles, categories, validation-hit flags and a compact comparison image. It distinguishes archived corrected-v2 user examples from the later clean temporal validation and final RRF submission.
+

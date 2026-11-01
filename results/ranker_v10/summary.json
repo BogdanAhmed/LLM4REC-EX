@@ -1,0 +1,203 @@
+{
+  "version": "ranker_v10",
+  "incumbent_reproduced": {
+    "full": 0.41104497354497316,
+    "late": 0.36068474426807734
+  },
+  "scores": {
+    "v9_time33": 0.41104497354497316,
+    "ranker": 0.413634259259259,
+    "rrf_v9_075_ranker_025": 0.411814153439153
+  },
+  "late_scores": {
+    "v9_time33": 0.36068474426807734,
+    "ranker": 0.36178086419753075,
+    "rrf_v9_075_ranker_025": 0.3613957231040561
+  },
+  "selected": "ranker",
+  "qualified": [
+    "ranker",
+    "rrf_v9_075_ranker_025"
+  ],
+  "schema": [
+    "count30",
+    "count50",
+    "count80",
+    "log_duration",
+    "relative_frequency",
+    "recent14",
+    "days_since_last",
+    "frequency_rank",
+    "ppr_score",
+    "ppr_rank",
+    "cbf_score",
+    "cbf_rank",
+    "log_popularity",
+    "history_exposure_day",
+    "future_exposure_day",
+    "exposure_ratio",
+    "category_affinity",
+    "source_frequency",
+    "source_ppr",
+    "source_cbf",
+    "source_popularity",
+    "count50_per_history_day",
+    "watched_seconds_per_history_day",
+    "recent14_over_count50",
+    "history_length_days",
+    "channel_pref_mean",
+    "channel_pref_per_day",
+    "channel_pref_max",
+    "log_channel_support",
+    "time_pref_mean",
+    "channel_time_pref_mean",
+    "channel_time_pref_per_day",
+    "channel_time_interaction"
+  ],
+  "ranker_params": {
+    "objective": "lambdarank",
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_child_samples": 50,
+    "reg_lambda": 5.0,
+    "lambdarank_truncation_level": 8,
+    "random_state": 42,
+    "n_jobs": 1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "group_checks": {
+    "fingerprint": "f44377b807b8dca556d8f0595799c510490e8793d66db4656bb3eec6676449e2",
+    "rows": 1776200,
+    "groups": 8881,
+    "group_sum": 1776200,
+    "min_group": 200,
+    "max_group": 200,
+    "contiguous": true,
+    "query_example": [
+      "apr05:10008352999832730058",
+      "apr05:10008352999832730058"
+    ],
+    "params": {
+      "objective": "lambdarank",
+      "n_estimators": 200,
+      "learning_rate": 0.05,
+      "num_leaves": 15,
+      "min_child_samples": 50,
+      "reg_lambda": 5.0,
+      "lambdarank_truncation_level": 8,
+      "random_state": 42,
+      "n_jobs": 1,
+      "deterministic": true,
+      "force_col_wise": true
+    },
+    "lightgbm": "4.7.0"
+  },
+  "fingerprint": "f44377b807b8dca556d8f0595799c510490e8793d66db4656bb3eec6676449e2",
+  "input_identities_before": {
+    "v9_submission": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\time_channel_v9\\submission_time_channel_v9_time33.csv",
+      "size": 76463,
+      "sha256": "0a7e97a24765cf047da1405b130c8de9a38b1eecf60876cde2bb15a3f707f704"
+    },
+    "v9_validation_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\time_channel_v9\\time33_validation.pkl",
+      "size": 477563,
+      "sha256": "7a0fae352f8014e82e50a1ae6f43aa4639b4e658022e6c4d8184da6f66dc3868"
+    },
+    "v9_final_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\time_channel_v9\\time33_final.pkl",
+      "size": 479155,
+      "sha256": "b32193f4d99db70c38e4e6367ecbab481b3f4110c2dd2240a574188cc1a5bcf9"
+    }
+  },
+  "input_identities_after": {
+    "v9_submission": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\time_channel_v9\\submission_time_channel_v9_time33.csv",
+      "size": 76463,
+      "sha256": "0a7e97a24765cf047da1405b130c8de9a38b1eecf60876cde2bb15a3f707f704"
+    },
+    "v9_validation_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\time_channel_v9\\time33_validation.pkl",
+      "size": 477563,
+      "sha256": "7a0fae352f8014e82e50a1ae6f43aa4639b4e658022e6c4d8184da6f66dc3868"
+    },
+    "v9_final_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\time_channel_v9\\time33_final.pkl",
+      "size": 479155,
+      "sha256": "b32193f4d99db70c38e4e6367ecbab481b3f4110c2dd2240a574188cc1a5bcf9"
+    }
+  },
+  "incumbent_unchanged": {
+    "v9_submission": true,
+    "v9_validation_model": true,
+    "v9_final_model": true
+  },
+  "boundaries": {
+    "T": "2020-05-18 00:00:00",
+    "U": "2020-07-27 00:00:00",
+    "validation_history": "strictly before T",
+    "validation_labels": "T <= airing_end < U",
+    "late": "overlapping diagnostic only",
+    "final_history": "strictly before U",
+    "cohort_users": 1260
+  },
+  "final_submission": "submission_ranker_v10_ranker.csv",
+  "submission_checks": {
+    "rows": 1260,
+    "unique_users": 1260,
+    "template_order": true,
+    "complete_coverage": true,
+    "five_distinct_positive_ids": true,
+    "schedule_available": true,
+    "strict_pre_U_fitting": true,
+    "fallback_users": 4
+  },
+  "final_info": {
+    "ranker_groups": {
+      "fingerprint": "c3ab34ba57a41605bed405317205e85abc2afe24e638f815e7d6ee9fe514ced4",
+      "rows": 1783200,
+      "groups": 8916,
+      "group_sum": 1783200,
+      "min_group": 200,
+      "max_group": 200,
+      "contiguous": true,
+      "query_example": [
+        "jun14:10008352999832730058",
+        "jun14:10008352999832730058"
+      ],
+      "params": {
+        "objective": "lambdarank",
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "num_leaves": 15,
+        "min_child_samples": 50,
+        "reg_lambda": 5.0,
+        "lambdarank_truncation_level": 8,
+        "random_state": 42,
+        "n_jobs": 1,
+        "deterministic": true,
+        "force_col_wise": true
+      },
+      "lightgbm": "4.7.0"
+    },
+    "no_test_viewing": true
+  },
+  "timings": {
+    "ranker_validation": {
+      "seconds": 0.00040919999992183875,
+      "cache_hit": true
+    },
+    "ranker_validation_predict": {
+      "seconds": 2.4468446000000768,
+      "cache_hit": false
+    },
+    "ranker_final": {
+      "seconds": 91.21496389999993,
+      "cache_hit": false
+    }
+  },
+  "runtime_total_sec": 180.25975150000022,
+  "late_diagnostic": "Overlapping diagnostic, not independent test."
+}

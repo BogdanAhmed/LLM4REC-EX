@@ -1,0 +1,37 @@
+{
+  "T": "2020-05-18 00:00:00",
+  "U": "2020-07-27 00:00:00",
+  "validation_history_rule": "airing_end < T",
+  "validation_label_rule": "T <= airing_end < U",
+  "final_history_rule": "airing_end < U",
+  "outer_observed": {
+    "history_max_airing_end": "2020-05-17 23:55:00",
+    "label_min_airing_end": "2020-05-18 00:00:00",
+    "label_max_airing_end": "2020-07-26 23:45:00",
+    "cross_cache_duplicates": 1
+  },
+  "history_strictly_before_T": true,
+  "labels_start_at_or_after_T": true,
+  "labels_strictly_before_U": true,
+  "all_1260_users": true,
+  "empty_targets": 24,
+  "saved_model_compatibility": {
+    "compatible": true,
+    "snapshots": [
+      {
+        "file": "snapshot_s1.npz",
+        "features": 21,
+        "label_end": "2020-04-19 00:00:00",
+        "strictly_before_T": true
+      },
+      {
+        "file": "snapshot_s2.npz",
+        "features": 21,
+        "label_end": "2020-05-03 00:00:00",
+        "strictly_before_T": true
+      }
+    ],
+    "model_features": 21
+  },
+  "nested_200_preserves_100": true
+}

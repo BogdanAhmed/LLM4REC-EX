@@ -1,0 +1,29 @@
+{
+  "saved100": {
+    "absent_from_schedule_pool": 0,
+    "coverage_all_targets": 0.8262989742727426,
+    "coverage_eligible_targets": 0.8262989742727426,
+    "covered_relevant_items": 4914,
+    "eligible_missed_by_shortlist": 1033,
+    "eligible_target_items": 5947,
+    "target_items": 5947
+  },
+  "saved200": {
+    "absent_from_schedule_pool": 0,
+    "coverage_all_targets": 0.8745586009752817,
+    "coverage_eligible_targets": 0.8745586009752817,
+    "covered_relevant_items": 5201,
+    "eligible_missed_by_shortlist": 746,
+    "eligible_target_items": 5947,
+    "target_items": 5947
+  },
+  "new200": {
+    "target_items": 5947,
+    "eligible_target_items": 5947,
+    "absent_from_schedule_pool": 0,
+    "eligible_missed_by_shortlist": 746,
+    "covered_relevant_items": 5201,
+    "coverage_all_targets": 0.8745586009752817,
+    "coverage_eligible_targets": 0.8745586009752817
+  }
+}

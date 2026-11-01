@@ -1,0 +1,91 @@
+{
+  "fingerprint": "ea718b4ad2cd91423145d0b7e9eaabf2d1c7520594fe19227e15d87e15a7550e",
+  "fingerprint_data": {
+    "base": "1d23a8c926eaeb8bd5e390a67b1b1958083fc51dfac393125a68960d566fff76",
+    "name": "outer_saved100",
+    "cutoff": "2020-05-18T00:00:00",
+    "label_end": "2020-07-27T00:00:00",
+    "schema": "v3_21",
+    "features": [
+      "count30",
+      "count50",
+      "count80",
+      "log_duration",
+      "relative_frequency",
+      "recent14",
+      "days_since_last",
+      "frequency_rank",
+      "ppr_score",
+      "ppr_rank",
+      "cbf_score",
+      "cbf_rank",
+      "log_popularity",
+      "history_exposure_day",
+      "future_exposure_day",
+      "exposure_ratio",
+      "category_affinity",
+      "source_frequency",
+      "source_ppr",
+      "source_cbf",
+      "source_popularity"
+    ],
+    "candidate_policy": {
+      "v3_100": "freq30,ppr50,cbf30,pop30; then ppr100; v3 pop floor; truncate100",
+      "nested_200": "preserve v3_100; deterministic round-robin tails frequency,ppr,cbf,pop",
+      "relevance_blind": true
+    },
+    "model_settings": {
+      "max_iter": 120,
+      "learning_rate": 0.08,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "class_weight": "balanced",
+      "random_state": 42
+    }
+  },
+  "input_identities": {
+    "train_cache": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\corrected_v2\\train_interactions.csv.gz",
+      "size": 27984737,
+      "sha256": "d07f1ebb272d53f5487f8c696b4d7b3e6ca53990ff3f07449709a0895683a30d"
+    },
+    "val_cache": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\corrected_v2\\val_interactions.csv.gz",
+      "size": 17987653,
+      "sha256": "9a61d3056f6020eef4c758b5070d9b074a3b019d0b3c45842e7de3c0486704e1"
+    },
+    "template": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\data\\raw\\submission.csv",
+      "size": 38348,
+      "sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+    },
+    "saved_validation_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\tuning_v3\\reranker_validation.pkl",
+      "size": 455555,
+      "sha256": "9ab3caf73aaf2cc9b54e5665ba3fcac4fbefd25557059ee811e51c05fce6112d"
+    },
+    "saved_final_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\tuning_v3\\reranker_final.pkl",
+      "size": 456771,
+      "sha256": "43b7f64beaa45785695bccc586d27aee70ce7760b79c80dba0dc9f5e1e4b0b2c"
+    },
+    "schedules": {
+      "train": {
+        "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\data\\raw\\export_arh_11-20-final.csv",
+        "size": 153322643,
+        "sha256": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c"
+      },
+      "val": {
+        "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\data\\raw\\export_arh_21-30-final.csv",
+        "size": 154366907,
+        "sha256": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4"
+      },
+      "test": {
+        "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\data\\raw\\export_arh_31-42-final.csv",
+        "size": 185952991,
+        "sha256": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088"
+      }
+    }
+  }
+}

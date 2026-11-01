@@ -1,0 +1,210 @@
+{
+  "version": "time_channel_v9",
+  "incumbent_reproduced": {
+    "full": 0.40946318342151666,
+    "late": 0.35924184303350976
+  },
+  "scores": {
+    "channel_v8": 0.40946318342151666,
+    "time33": 0.41104497354497316,
+    "time35": 0.41065939153439135
+  },
+  "late_scores": {
+    "channel_v8": 0.35924184303350976,
+    "time33": 0.36068474426807734,
+    "time35": 0.35949228395061716
+  },
+  "qualified": [
+    "time33",
+    "time35"
+  ],
+  "selected": "time33",
+  "schemas": {
+    "time33": [
+      "count30",
+      "count50",
+      "count80",
+      "log_duration",
+      "relative_frequency",
+      "recent14",
+      "days_since_last",
+      "frequency_rank",
+      "ppr_score",
+      "ppr_rank",
+      "cbf_score",
+      "cbf_rank",
+      "log_popularity",
+      "history_exposure_day",
+      "future_exposure_day",
+      "exposure_ratio",
+      "category_affinity",
+      "source_frequency",
+      "source_ppr",
+      "source_cbf",
+      "source_popularity",
+      "count50_per_history_day",
+      "watched_seconds_per_history_day",
+      "recent14_over_count50",
+      "history_length_days",
+      "channel_pref_mean",
+      "channel_pref_per_day",
+      "channel_pref_max",
+      "log_channel_support",
+      "time_pref_mean",
+      "channel_time_pref_mean",
+      "channel_time_pref_per_day",
+      "channel_time_interaction"
+    ],
+    "time35": [
+      "count30",
+      "count50",
+      "count80",
+      "log_duration",
+      "relative_frequency",
+      "recent14",
+      "days_since_last",
+      "frequency_rank",
+      "ppr_score",
+      "ppr_rank",
+      "cbf_score",
+      "cbf_rank",
+      "log_popularity",
+      "history_exposure_day",
+      "future_exposure_day",
+      "exposure_ratio",
+      "category_affinity",
+      "source_frequency",
+      "source_ppr",
+      "source_cbf",
+      "source_popularity",
+      "count50_per_history_day",
+      "watched_seconds_per_history_day",
+      "recent14_over_count50",
+      "history_length_days",
+      "channel_pref_mean",
+      "channel_pref_per_day",
+      "channel_pref_max",
+      "log_channel_support",
+      "time_pref_mean",
+      "channel_time_pref_mean",
+      "channel_time_pref_per_day",
+      "channel_time_interaction",
+      "recent28_channel_pref_mean",
+      "log_recent28_channel_support"
+    ]
+  },
+  "feature_fingerprint": "d34ca2e0eac061f8a25f1b2ade5d42124fa51fdbfc49e7dae86e0d16fa1913a1",
+  "input_identities_before": {
+    "v8_submission": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\channel_v8\\submission_channel_v8_channel_hgb.csv",
+      "size": 76471,
+      "sha256": "d344a003f2d8021074f8b299266897738cff64f6e228a31d39e9c8a0d42446a7"
+    },
+    "v8_validation_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\channel_v8\\channel_hgb_validation.pkl",
+      "size": 469315,
+      "sha256": "9bb42fc6b2d905c959560bc6e9981f20ce990307d615e2f3ea8ef0d8ab9af31c"
+    },
+    "v8_final_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\channel_v8\\channel_hgb_final.pkl",
+      "size": 470907,
+      "sha256": "80429814ce6c1c8a0ced701c95e3cb435293cce6306cd61776689c221b7b4402"
+    }
+  },
+  "input_identities_after": {
+    "v8_submission": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\channel_v8\\submission_channel_v8_channel_hgb.csv",
+      "size": 76471,
+      "sha256": "d344a003f2d8021074f8b299266897738cff64f6e228a31d39e9c8a0d42446a7"
+    },
+    "v8_validation_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\channel_v8\\channel_hgb_validation.pkl",
+      "size": 469315,
+      "sha256": "9bb42fc6b2d905c959560bc6e9981f20ce990307d615e2f3ea8ef0d8ab9af31c"
+    },
+    "v8_final_model": {
+      "path": "C:\\Users\\bogdan\\Desktop\\Recsys\\Exam\\results\\channel_v8\\channel_hgb_final.pkl",
+      "size": 470907,
+      "sha256": "80429814ce6c1c8a0ced701c95e3cb435293cce6306cd61776689c221b7b4402"
+    }
+  },
+  "incumbent_unchanged": {
+    "v8_submission": true,
+    "v8_validation_model": true,
+    "v8_final_model": true
+  },
+  "boundaries": {
+    "T": "2020-05-18 00:00:00",
+    "U": "2020-07-27 00:00:00",
+    "validation_history": "strictly before T",
+    "validation_labels": "T <= airing_end < U",
+    "late": "2020-06-15 <= airing_end < U (overlapping diagnostic)",
+    "final_history": "strictly before U",
+    "all_1260_users": true
+  },
+  "final_submission": "submission_time_channel_v9_time33.csv",
+  "submission_checks": {
+    "rows": 1260,
+    "template_order": true,
+    "complete_coverage": true,
+    "five_distinct_positive_ids": true,
+    "schedule_available": true,
+    "strict_pre_U_fitting": true,
+    "fallback_users": 4
+  },
+  "timings": {
+    "profiles": {
+      "seconds": 489.6940745000029,
+      "cache_hit": false
+    },
+    "features_outer_time33": {
+      "seconds": 87.60140699999465,
+      "cache_hit": false
+    },
+    "features_outer_time35": {
+      "seconds": 73.74452319999546,
+      "cache_hit": false
+    },
+    "features_apr05_time33": {
+      "seconds": 258.25548230000277,
+      "cache_hit": false
+    },
+    "features_apr05_time35": {
+      "seconds": 245.40550369999983,
+      "cache_hit": false
+    },
+    "features_apr19_time33": {
+      "seconds": 203.28146909999487,
+      "cache_hit": false
+    },
+    "features_apr19_time35": {
+      "seconds": 122.40236440000444,
+      "cache_hit": false
+    },
+    "time33_validation": {
+      "seconds": 55.730247500003316,
+      "cache_hit": false
+    },
+    "time35_validation": {
+      "seconds": 55.214470900005836,
+      "cache_hit": false
+    },
+    "features_final_time33": {
+      "seconds": 38.66574660000333,
+      "cache_hit": false
+    },
+    "features_jun14_time33": {
+      "seconds": 124.3569725999987,
+      "cache_hit": false
+    },
+    "features_jun28_time33": {
+      "seconds": 125.67762490001041,
+      "cache_hit": false
+    },
+    "time33_final": {
+      "seconds": 53.98340899999312,
+      "cache_hit": false
+    }
+  },
+  "runtime_total_sec": 2613.937369500003
+}

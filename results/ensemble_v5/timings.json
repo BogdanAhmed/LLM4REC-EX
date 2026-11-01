@@ -1,0 +1,10 @@
+{
+  "existing_model_scores": {
+    "seconds": 10.51877930000046,
+    "cache_hit": true
+  },
+  "final_candidate_features": {
+    "seconds": 162.0220111000017,
+    "cache_hit": false
+  }
+}

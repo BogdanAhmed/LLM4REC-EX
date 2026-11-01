@@ -1,0 +1,8 @@
+method,map5,runtime_sec,fallback_users,cold_start_users,settings
+popularity,0.14163910934744253,0.0,1260,15,cached baseline popularity
+frequency,0.37002447089947094,0.12982240000019374,39,15,"{""decay"": ""none""}"
+cbf,0.2775888447971768,5.773048399998515,15,15,"{""features"": 18173, ""train_items"": 5847}"
+ppr_a0.15,0.3740196208112875,52.618015000000014,15,15,"{""alpha"": 0.15, ""converged_users"": 1246, ""graph_edges"": 2128678, ""graph_nodes"": 7051, ""graph_users"": 4782, ""max_final_delta"": 9.9762647900816e-09, ""max_iter"": 100, ""mean_iterations"": 5.959069020866774, ""tol"": 1e-08, ""users_run"": 1246}"
+ppr_a0.35,0.3745513668430336,67.7842299999993,15,15,"{""alpha"": 0.35, ""converged_users"": 1246, ""graph_edges"": 2128678, ""graph_nodes"": 7051, ""graph_users"": 4782, ""max_final_delta"": 9.997582236898777e-09, ""max_iter"": 100, ""mean_iterations"": 7.570626003210273, ""tol"": 1e-08, ""users_run"": 1246}"
+ppr_a0.50,0.37572729276895944,72.42944109999917,15,15,"{""alpha"": 0.5, ""converged_users"": 1246, ""graph_edges"": 2128678, ""graph_nodes"": 7051, ""graph_users"": 4782, ""max_final_delta"": 9.969962673154617e-09, ""max_iter"": 100, ""mean_iterations"": 8.675762439807384, ""tol"": 1e-08, ""users_run"": 1246}"
+ppr_a0.75,0.37907341269841294,84.88999729999887,15,15,"{""alpha"": 0.75, ""converged_users"": 1246, ""graph_edges"": 2128678, ""graph_nodes"": 7051, ""graph_users"": 4782, ""max_final_delta"": 9.999606637530912e-09, ""max_iter"": 100, ""mean_iterations"": 10.28892455858748, ""tol"": 1e-08, ""users_run"": 1246}"
