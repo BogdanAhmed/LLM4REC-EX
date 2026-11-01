@@ -1,0 +1,12 @@
+data/raw/
+results/**/*.npz
+results/**/*.pkl
+results/**/*.csv.gz
+__pycache__/
+*.pyc
+*.log
+.env
+.venv/
+venv/
+.ipynb_checkpoints/
+*.zip

@@ -1,0 +1,6 @@
+method,map5,runtime_sec,settings
+v4_hgb_recomputed,0.40403130511463825,0.0,"{""model"":""HGB v4"",""schema"":""v4_25""}"
+v3_hgb_on_v4_candidates,0.4031959876543209,0.0,"{""model"":""HGB v3"",""schema"":""v3_21""}"
+prob_blend_v4_0.50,0.40496560846560825,0.0,"{""v3_weight"":0.5,""v4_weight"":0.5}"
+prob_blend_v4_0.75,0.404994708994709,0.0,"{""v3_weight"":0.25,""v4_weight"":0.75}"
+prob_blend_v4_0.90,0.40496913580246907,0.0,"{""v3_weight"":0.09999999999999998,""v4_weight"":0.9}"

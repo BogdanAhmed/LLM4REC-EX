@@ -1,0 +1,85 @@
+{
+  "settings": {
+    "encoding": "utf-8-sig",
+    "train_fraction": 0.5,
+    "target_fraction": 0.8,
+    "repeats_allowed": true,
+    "candidate_rule": "positive IDs in target schedule",
+    "fallback": "training global popularity",
+    "cohort": 1260
+  },
+  "join": {
+    "train": {
+      "rows": 1332982,
+      "title_example": "'ТСН. Неделя'."
+    },
+    "val": {
+      "rows": 780027,
+      "title_example": "'Завтрак с 1+1'. Информационно-развлекательная программа."
+    }
+  },
+  "metrics": {
+    "popularity": {
+      "map5": 0.14163910934744253,
+      "users_with_targets": 1166,
+      "empty_targets": 94
+    },
+    "frequency": {
+      "map5": 0.15809634038800657,
+      "users_with_targets": 1166,
+      "empty_targets": 94
+    }
+  },
+  "examples": {
+    "decoded_train_title": "'ТСН. Неделя'.",
+    "decoded_val_title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+    "decoded_test_title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+    "manual_ap": {
+      "ranks": [
+        1,
+        4
+      ],
+      "ap5": 0.75
+    },
+    "real_overlap": {
+      "user_id": "10008352999832730058",
+      "view_start": "2020-03-10 21:58:18",
+      "view_stop": "2020-03-11 00:21:50",
+      "channel_id": "3",
+      "airing_start": "10.03.2020 22:45:00",
+      "programme_id": "6000483",
+      "programme_title": "'Свадьба вслепую', 6 сезон, 7 эп.",
+      "overlap_sec": 5810.0,
+      "programme_duration_sec": 6300,
+      "overlap_fraction": 0.9222222222222223
+    },
+    "manual_check_status": "automated example generated; hand arithmetic not yet performed by student"
+  },
+  "runtime_sec": 337.2831521999997,
+  "case_users": {
+    "heavy": {
+      "user_id": "13866173795451203812",
+      "train_interactions": 4091
+    },
+    "light": {
+      "user_id": "3799694907521863650",
+      "train_interactions": 1
+    },
+    "cold": {
+      "user_id": "12452087939154504535",
+      "train_interactions": 0
+    }
+  },
+  "automated_checks": {
+    "submission_baseline_popularity.csv": {
+      "rows": 1260,
+      "complete": true,
+      "five_distinct_positive_available_ids": true
+    },
+    "submission_baseline_frequency.csv": {
+      "rows": 1260,
+      "complete": true,
+      "five_distinct_positive_available_ids": true
+    }
+  }
+}

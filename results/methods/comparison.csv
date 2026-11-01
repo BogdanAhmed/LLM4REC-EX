@@ -1,0 +1,10 @@
+method,map5,runtime_sec,fallback_users,settings
+popularity,0.14163910934744253,0.0,1260,"{""source"":""cached baseline""}"
+frequency,0.15809634038800657,0.0576801000006526,82,"{""decay"": ""none""}"
+recency_14d,0.1331157407407406,0.4103188000008231,82,"{""half_life_days"": 14}"
+recency_30d,0.14889594356261018,0.38738700000067183,82,"{""half_life_days"": 30}"
+recency_60d,0.15352733686067002,0.3370001000002958,82,"{""half_life_days"": 60}"
+cbf,0.12241490299823628,6.354179899999508,19,"{""features"": 18173, ""train_items"": 5847}"
+ppr,0.1657883597883594,18.694576800000505,19,"{""alpha"": 0.5, ""converged_users"": 1242, ""edges"": 538318, ""max_final_delta"": 9.994852035405207e-09, ""max_iter"": 100, ""mean_iterations"": 10.043478260869565, ""nodes"": 7011, ""tol"": 1e-08, ""users_run"": 1242}"
+fusion_cbf,0.15603968253968228,10.692674300000363,19,"{""components"": [""frequency"", ""cbf""], ""k"": 60, ""rule"": ""equal-weight reciprocal-rank fusion""}"
+fusion_ppr,0.1611569664902993,3.1714496000004146,19,"{""components"": [""frequency"", ""ppr""], ""k"": 60, ""rule"": ""equal-weight reciprocal-rank fusion""}"
