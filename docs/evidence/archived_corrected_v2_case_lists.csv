@@ -1,0 +1,31 @@
+﻿case_user_id,legacy_method,rank,tv_show_id,title,category,archived_validation_hit,protocol
+13866173795451203812,frequency,1,2400480,'ТСН. Неделя'.,Инфо,1,corrected_v2; different from strict T/U
+13866173795451203812,frequency,2,240081,Факты. День.,Инфо,1,corrected_v2; different from strict T/U
+13866173795451203812,frequency,3,12001682,М/с 'Губка Боб Квадратные Штаны'.,Детям,1,corrected_v2; different from strict T/U
+13866173795451203812,frequency,4,12002955,М/с 'Свинка Пеппа'.,Детям,0,corrected_v2; different from strict T/U
+13866173795451203812,frequency,5,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,1,corrected_v2; different from strict T/U
+13866173795451203812,cbf,1,2400480,'ТСН. Неделя'.,Инфо,1,corrected_v2; different from strict T/U
+13866173795451203812,cbf,2,240081,Факты. День.,Инфо,1,corrected_v2; different from strict T/U
+13866173795451203812,cbf,3,5900319,Абзац!,Инфо,0,corrected_v2; different from strict T/U
+13866173795451203812,cbf,4,5900347,'Деньги'.,Инфо,0,corrected_v2; different from strict T/U
+13866173795451203812,cbf,5,2400467,'Викна-Новости'.,Инфо,1,corrected_v2; different from strict T/U
+13866173795451203812,ppr_a0.75,1,2400480,'ТСН. Неделя'.,Инфо,1,corrected_v2; different from strict T/U
+13866173795451203812,ppr_a0.75,2,240081,Факты. День.,Инфо,1,corrected_v2; different from strict T/U
+13866173795451203812,ppr_a0.75,3,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,1,corrected_v2; different from strict T/U
+13866173795451203812,ppr_a0.75,4,12001682,М/с 'Губка Боб Квадратные Штаны'.,Детям,1,corrected_v2; different from strict T/U
+13866173795451203812,ppr_a0.75,5,20088,'Завтрак с 1+1'. Информационно-развлекательная программа.,Развлечения,0,corrected_v2; different from strict T/U
+3799694907521863650,frequency,1,400426,'Меняю жену'.,Развлечения,0,corrected_v2; different from strict T/U
+3799694907521863650,frequency,2,2400480,'ТСН. Неделя'.,Инфо,1,corrected_v2; different from strict T/U
+3799694907521863650,frequency,3,240081,Факты. День.,Инфо,0,corrected_v2; different from strict T/U
+3799694907521863650,frequency,4,2400467,'Викна-Новости'.,Инфо,1,corrected_v2; different from strict T/U
+3799694907521863650,frequency,5,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,corrected_v2; different from strict T/U
+3799694907521863650,cbf,1,400426,'Меняю жену'.,Развлечения,0,corrected_v2; different from strict T/U
+3799694907521863650,cbf,2,2400480,'ТСН. Неделя'.,Инфо,1,corrected_v2; different from strict T/U
+3799694907521863650,cbf,3,6000483,"'Свадьба вслепую', 6 сезон, 7 эп.",Развлечения,0,corrected_v2; different from strict T/U
+3799694907521863650,cbf,4,200402,Дом на зависть всем.,Развлечения,0,corrected_v2; different from strict T/U
+3799694907521863650,cbf,5,400335,"'Хата на тата', 7 сезон, 1 эп.",Развлечения,0,corrected_v2; different from strict T/U
+3799694907521863650,ppr_a0.75,1,400426,'Меняю жену'.,Развлечения,0,corrected_v2; different from strict T/U
+3799694907521863650,ppr_a0.75,2,2400480,'ТСН. Неделя'.,Инфо,1,corrected_v2; different from strict T/U
+3799694907521863650,ppr_a0.75,3,240081,Факты. День.,Инфо,0,corrected_v2; different from strict T/U
+3799694907521863650,ppr_a0.75,4,2400467,'Викна-Новости'.,Инфо,1,corrected_v2; different from strict T/U
+3799694907521863650,ppr_a0.75,5,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,corrected_v2; different from strict T/U

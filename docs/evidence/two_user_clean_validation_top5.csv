@@ -1,0 +1,61 @@
+﻿case,user_id,method,rank,tv_show_id,title,category,held_out_target_hit,ap_at_5,protocol
+Active,13571199046623737884,Popularity,1,2400480,'ТСН. Неделя'.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,Popularity,2,240081,Факты. День.,Инфо,1,0.1,strict T/U validation
+Active,13571199046623737884,Popularity,3,2400467,'Викна-Новости'.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,Popularity,4,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,Popularity,5,200344,Not in provided case metadata,Not in provided case metadata,0,0.1,strict T/U validation
+Active,13571199046623737884,Frequency,1,12001682,М/с 'Губка Боб Квадратные Штаны'.,Детям,0,0.1,strict T/U validation
+Active,13571199046623737884,Frequency,2,240081,Факты. День.,Инфо,1,0.1,strict T/U validation
+Active,13571199046623737884,Frequency,3,2400480,'ТСН. Неделя'.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,Frequency,4,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,Frequency,5,20088,'Завтрак с 1+1'. Информационно-развлекательная программа.,Развлечения,0,0.1,strict T/U validation
+Active,13571199046623737884,CBF,1,240081,Факты. День.,Инфо,1,0.2,strict T/U validation
+Active,13571199046623737884,CBF,2,2400480,'ТСН. Неделя'.,Инфо,0,0.2,strict T/U validation
+Active,13571199046623737884,CBF,3,5900319,Абзац!,Инфо,0,0.2,strict T/U validation
+Active,13571199046623737884,CBF,4,5900347,'Деньги'.,Инфо,0,0.2,strict T/U validation
+Active,13571199046623737884,CBF,5,2400467,'Викна-Новости'.,Инфо,0,0.2,strict T/U validation
+Active,13571199046623737884,PPR (α=.75),1,2400480,'ТСН. Неделя'.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,PPR (α=.75),2,240081,Факты. День.,Инфо,1,0.1,strict T/U validation
+Active,13571199046623737884,PPR (α=.75),3,12001682,М/с 'Губка Боб Квадратные Штаны'.,Детям,0,0.1,strict T/U validation
+Active,13571199046623737884,PPR (α=.75),4,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,PPR (α=.75),5,20088,'Завтрак с 1+1'. Информационно-развлекательная программа.,Развлечения,0,0.1,strict T/U validation
+Active,13571199046623737884,HGB v4,1,2400480,'ТСН. Неделя'.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,HGB v4,2,240081,Факты. День.,Инфо,1,0.1,strict T/U validation
+Active,13571199046623737884,HGB v4,3,12001682,М/с 'Губка Боб Квадратные Штаны'.,Детям,0,0.1,strict T/U validation
+Active,13571199046623737884,HGB v4,4,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,HGB v4,5,20088,'Завтрак с 1+1'. Информационно-развлекательная программа.,Развлечения,0,0.1,strict T/U validation
+Active,13571199046623737884,RRF v12,1,2400480,'ТСН. Неделя'.,Инфо,0,0.1,strict T/U validation
+Active,13571199046623737884,RRF v12,2,240081,Факты. День.,Инфо,1,0.1,strict T/U validation
+Active,13571199046623737884,RRF v12,3,20088,'Завтрак с 1+1'. Информационно-развлекательная программа.,Развлечения,0,0.1,strict T/U validation
+Active,13571199046623737884,RRF v12,4,12001682,М/с 'Губка Боб Квадратные Штаны'.,Детям,0,0.1,strict T/U validation
+Active,13571199046623737884,RRF v12,5,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,0.1,strict T/U validation
+Sparse,3799694907521863650,Popularity,1,2400480,'ТСН. Неделя'.,Инфо,1,0.416666667,strict T/U validation
+Sparse,3799694907521863650,Popularity,2,240081,Факты. День.,Инфо,0,0.416666667,strict T/U validation
+Sparse,3799694907521863650,Popularity,3,2400467,'Викна-Новости'.,Инфо,1,0.416666667,strict T/U validation
+Sparse,3799694907521863650,Popularity,4,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,0.416666667,strict T/U validation
+Sparse,3799694907521863650,Popularity,5,200344,Not in provided case metadata,Not in provided case metadata,0,0.416666667,strict T/U validation
+Sparse,3799694907521863650,Frequency,1,400426,'Меняю жену'.,Развлечения,0,0.25,strict T/U validation
+Sparse,3799694907521863650,Frequency,2,2400480,'ТСН. Неделя'.,Инфо,1,0.25,strict T/U validation
+Sparse,3799694907521863650,Frequency,3,240081,Факты. День.,Инфо,0,0.25,strict T/U validation
+Sparse,3799694907521863650,Frequency,4,2400467,'Викна-Новости'.,Инфо,1,0.25,strict T/U validation
+Sparse,3799694907521863650,Frequency,5,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,0.25,strict T/U validation
+Sparse,3799694907521863650,CBF,1,400426,'Меняю жену'.,Развлечения,0,0.125,strict T/U validation
+Sparse,3799694907521863650,CBF,2,2400480,'ТСН. Неделя'.,Инфо,1,0.125,strict T/U validation
+Sparse,3799694907521863650,CBF,3,6000483,"'Свадьба вслепую', 6 сезон, 7 эп.",Развлечения,0,0.125,strict T/U validation
+Sparse,3799694907521863650,CBF,4,200402,Дом на зависть всем.,Развлечения,0,0.125,strict T/U validation
+Sparse,3799694907521863650,CBF,5,400335,"'Хата на тата', 7 сезон, 1 эп.",Развлечения,0,0.125,strict T/U validation
+Sparse,3799694907521863650,PPR (α=.75),1,400426,'Меняю жену'.,Развлечения,0,0.25,strict T/U validation
+Sparse,3799694907521863650,PPR (α=.75),2,2400480,'ТСН. Неделя'.,Инфо,1,0.25,strict T/U validation
+Sparse,3799694907521863650,PPR (α=.75),3,240081,Факты. День.,Инфо,0,0.25,strict T/U validation
+Sparse,3799694907521863650,PPR (α=.75),4,2400467,'Викна-Новости'.,Инфо,1,0.25,strict T/U validation
+Sparse,3799694907521863650,PPR (α=.75),5,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,0.25,strict T/U validation
+Sparse,3799694907521863650,HGB v4,1,2400480,'ТСН. Неделя'.,Инфо,1,0.416666667,strict T/U validation
+Sparse,3799694907521863650,HGB v4,2,240081,Факты. День.,Инфо,0,0.416666667,strict T/U validation
+Sparse,3799694907521863650,HGB v4,3,2400467,'Викна-Новости'.,Инфо,1,0.416666667,strict T/U validation
+Sparse,3799694907521863650,HGB v4,4,2400508,Сегодня. Итоги с Олегом Панютой.,Инфо,0,0.416666667,strict T/U validation
+Sparse,3799694907521863650,HGB v4,5,20088,'Завтрак с 1+1'. Информационно-развлекательная программа.,Развлечения,0,0.416666667,strict T/U validation
+Sparse,3799694907521863650,RRF v12,1,2400480,'ТСН. Неделя'.,Инфо,1,0.25,strict T/U validation
+Sparse,3799694907521863650,RRF v12,2,20088,'Завтрак с 1+1'. Информационно-развлекательная программа.,Развлечения,0,0.25,strict T/U validation
+Sparse,3799694907521863650,RRF v12,3,6500479,Not in provided case metadata,Not in provided case metadata,0,0.25,strict T/U validation
+Sparse,3799694907521863650,RRF v12,4,6000483,"'Свадьба вслепую', 6 сезон, 7 эп.",Развлечения,0,0.25,strict T/U validation
+Sparse,3799694907521863650,RRF v12,5,240081,Факты. День.,Инфо,0,0.25,strict T/U validation

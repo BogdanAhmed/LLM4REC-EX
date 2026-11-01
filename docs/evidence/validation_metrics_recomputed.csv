@@ -1,0 +1,7 @@
+method,mean_ap5_recomputed,recalc_matches_uploaded_per_user_ap
+Popularity,0.27461309523809524,True
+Frequency,0.37015013227513227,True
+CBF,0.2775716490299824,True
+PPR (α=.75),0.3791851851851852,True
+HGB v4,0.4040313051146385,True
+RRF v12,0.4140972222222223,False
